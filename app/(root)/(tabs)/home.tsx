@@ -135,16 +135,16 @@ export default function Page() {
   const handleSignOut = () => {};
 
   //ggogle cloud case
-  /*  const handleDestinationPress = (location: {
+  const handleDestinationPress = (location: {
     latitude: number;
     longitude: number;
     address: string;
   }) => {
     setDestinationLocation(location);
     router.push("/(root)/find-ride");
-  };*/
+  };
 
-  const handleDestinationPress = () => {
+  /*  const handleDestinationPress = () => {
     const location = {
       latitude: 34.7484,
       longitude: 10.7632,
@@ -153,7 +153,7 @@ export default function Page() {
     setDestinationLocation(location);
 
     router.push("/(root)/find-ride");
-  };
+  };*/
 
   useEffect(() => {
     const requestLocation = async () => {
@@ -227,7 +227,7 @@ export default function Page() {
               </TouchableOpacity>
             </View>
 
-            <View
+            {/*            <View
               className={`flex flex-row items-center justify-center relative z-50 rounded-xl bg-white shadow-md shadow-neutral-300 h-12 mb-5 `}
             >
               <TextInput
@@ -240,7 +240,12 @@ export default function Page() {
                   style={{ width: 24, height: 24, marginRight: 10 }}
                 />
               </TouchableOpacity>
-            </View>
+            </View>*/}
+            <GoogleTextInput
+              icon={icons.search}
+              containerStyle="bg-white shadow-md shadow-neutral-300"
+              handlePress={handleDestinationPress}
+            />
 
             <>
               <Text className="text-xl font-bold mt-5 mb-3">

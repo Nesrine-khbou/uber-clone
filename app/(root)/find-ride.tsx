@@ -13,7 +13,7 @@ const FindRide = () => {
   } = useLocationStore();
   return (
     <RideLayout title="Ride">
-      <Text className="text-lg font-bold mb-3">From</Text>
+      <Text className="text-lg font-bold mb-3">rides</Text>
     </RideLayout>
   );
 };
