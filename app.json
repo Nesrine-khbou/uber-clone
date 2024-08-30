@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Uber",
-    "slug": "uber",
+    "name": "SafeStep",
+    "slug": "safeStep",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/crutch_icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -17,17 +17,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/crutch_icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "server",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/crutch_icon.png"
     },
     "plugins": [
-      ["expo-router", {"origin": "https://uber.com/"}]
+      ["expo-router", {"origin": "https://smart_crutch.com/"}]
     ],
     "experiments": {
       "typedRoutes": true

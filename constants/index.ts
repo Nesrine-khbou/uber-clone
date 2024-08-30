@@ -31,7 +31,13 @@ import onboarding1 from "@/assets/images/onboarding1.png";
 import onboarding2 from "@/assets/images/onboarding2.png";
 import onboarding3 from "@/assets/images/onboarding3.png";
 import signUpCar from "@/assets/images/signup-car.png";
-
+import appimage2 from "@/assets/images/appimage2.png";
+import appimage1 from "@/assets/images/appimage1.png";
+import appimage3_1 from "@/assets/images/appimage3_1.png";
+import appimage3_2 from "@/assets/images/appimage3_2.png";
+import appimage4 from "@/assets/images/appimage4.png";
+// eslint-disable-next-line import/no-unresolved
+import appimage5 from "@/assets/images/appimage5.png";
 export const images = {
   onboarding1,
   onboarding2,
@@ -41,6 +47,12 @@ export const images = {
   check,
   noResult,
   message,
+  appimage2,
+  appimage1,
+  appimage3_1,
+  appimage3_2,
+  appimage4,
+  appimage5,
 };
 
 export const icons = {
@@ -74,24 +86,24 @@ export const icons = {
 export const onboarding = [
   {
     id: 1,
-    title: "The perfect ride is just a tap away!",
+    title: "SafeStep: Your Safe Journey Starts Here",
     description:
-      "Your journey begins with Ryde. Find your ideal ride effortlessly.",
-    image: images.onboarding1,
+      "Experience enhanced mobility with real-time obstacle detection and fall prevention",
+    image: images.appimage2,
   },
   {
     id: 2,
-    title: "Best car in your hands with Ryde",
+    title: "See Clearly, Walk Safely",
     description:
-      "Discover the convenience of finding your perfect ride with Ryde",
-    image: images.onboarding2,
+      "Activate light in low light conditions and navigate your path with confidence",
+    image: images.appimage1,
   },
   {
     id: 3,
-    title: "Your ride, your way. Let's go!",
+    title: "SafeStep: Confidence in Every Step",
     description:
-      "Enter your destination, sit back, and let us take care of the rest.",
-    image: images.onboarding3,
+      "Empower your mobility with advanced safety features and real-time alerts",
+    image: images.appimage3_2,
   },
 ];
 
